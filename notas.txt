@@ -1,11 +1,12 @@
-debe ingresar la cantidad de hectareas que tiene, puede ingresar o no la cantidad de trampas por hectarea
-Por dia se deben simular tres veces las temperaturas, a las 9, a las 15 y a las 17.
-En base a eso contar los carpogrados
-por cada dia en base a los carpogrados ir actualizando la cantidad de insectos y distribucion
-se debe leer las trampas y simular cuantos se capturan, guardando las alarmas por dia
-Se debe simular la aplicaion de insecticidas a larvas, simulando la poblacion antes y despues
-El usuario debe ingresar si controla los huevos o no, en base a eso calcular la eclosion de huevos
-segun los huevos de cada hembra se debe actualizar la población.
+debe ingresar la cantidad de hectareas que tiene, puede ingresar o no la cantidad de trampas por hectarea. #
+Por dia se deben simular tres veces las temperaturas, a las 9, a las 15 y a las 17. #
+En base a eso contar los carpogrados. #
+por cada dia en base a los carpogrados ir actualizando la cantidad de insectos y distribucion. #
+se debe leer las trampas y simular cuantos se capturan #
+Se deben guardar las alarmas por dia. 
+Se debe simular la aplicaion de insecticidas a larvas, simulando la poblacion antes y despues. #
+El usuario debe ingresar si controla los huevos o no, en base a eso calcular la eclosion de huevos. #
+segun los huevos de cada hembra se debe actualizar la población. #
 El productor debe ingresar el costo por hectarea de las trampas de confusion, el costo de las aplicaciones de insecticidas,
-mano de obra de aplicacion, el costo de monitorear.
+mano de obra de aplicacion, el costo de monitorear. 
 Se debe estimar la poblacion si no se controla y en base a eso estimar las perdidas

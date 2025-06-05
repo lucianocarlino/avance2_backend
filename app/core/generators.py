@@ -136,5 +136,4 @@ def get_seed(digits: int):
     response = requests.get('https://argentina.gob.ar')
     after_input = time.time()
     seed = int(str(int((((after_input - before_input) * response.elapsed.total_seconds()) % 1) * (10**17)))[::-1][:digits])
-    print(f"Semilla generada: {seed}")
     return seed

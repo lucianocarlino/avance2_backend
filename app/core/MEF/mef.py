@@ -8,7 +8,7 @@ class MEF:
     def transition(self, event):
         key = (self.state, event)
         if key in self.transition_table:
-            if self.transition_table[key] > 1:
+            if len(self.transition_table[key]) > 2:
                 self.state, self.min_mean, self.max_mean = self.transition_table[key]
             else: 
                 self.state = self.transition_table[key][0]
